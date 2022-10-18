@@ -12,7 +12,9 @@
     />
 
     <!-- link your styles -->
-    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./stylesheets/style.css" />
+    <!-- iteration 2 css -->
+    <link rel="stylesheet" media="screen and (min-width: 769px)" href="./stylesheets/style2.css" />
 
     <link rel="icon" type="image/x-icon" href="./images/slack-icon.png" />
     <title>Slack is your digital HQ | Slack</title>
@@ -63,7 +65,7 @@
       </div>
     </nav>
 
-    <header>
+    <header class="landing">
       <div class="sect-1">
         <h1>Great teamwork starts with a digital HQ</h1>
 
@@ -73,7 +75,7 @@
         </p>
 
         <div class="sect-1-buttons">
-          <button>Sign up with email</button>
+          <button class="sign-up">Sign up with email</button>
 
           <button class="g-but">
             <img src="./images/logo-google.png" alt="Google logo" />
@@ -83,7 +85,7 @@
       </div>
 
       <div>
-        <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+        <img class="landing-img" src="./images/hero-product-ui.png" alt="Slack app screenshot" />
       </div>
     </header>
 
